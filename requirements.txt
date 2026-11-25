@@ -1,8 +1,12 @@
-# Tested with Python 3.14, torch 2.15 and ultralytics 8.4.216.
-# GPU: install the CUDA build of torch first (https://pytorch.org/get-started/locally/), then this file.
+# Tested with Python 3.12-3.14 and ultralytics 8.4.216.
+# The extra index gives the small CPU-only build of PyTorch (used locally and on Streamlit Cloud).
+# For training on a GPU, install the CUDA build of torch first (https://pytorch.org/get-started/locally/).
+--extra-index-url https://download.pytorch.org/whl/cpu
 torch>=2.2
 torchvision>=0.17
 ultralytics==8.4.216
+# CLIP text encoder used by YOLO-World's set_classes() (Ultralytics would otherwise install it at run time)
+clip @ git+https://github.com/ultralytics/CLIP.git
 pycocotools>=2.0.7
 transformers>=4.40        # CLIP text encoder used in the notebook (Section 6)
 opencv-python-headless>=4.9

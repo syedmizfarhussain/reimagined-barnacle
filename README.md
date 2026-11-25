@@ -63,6 +63,8 @@ Fixed settings: seed 42, image size 640, score threshold 0.001 and at most 300 b
 streamlit run app.py
 ```
 
+**Online (Streamlit Community Cloud):** the repo is ready to deploy as it is. `requirements.txt` installs the CPU-only PyTorch build, and `packages.txt` adds the Linux library OpenCV needs. On https://share.streamlit.io choose *Create app → Deploy a public app from GitHub*: repository `syedmizfarhussain/reimagined-barnacle`, branch `main`, main file `app.py`, *Advanced settings → Python 3.12*. The first start takes a few minutes, because the model downloads.
+
 Open the printed URL (default http://localhost:8501). The page shows the whole pipeline **Input → Preprocessing → Trained Model → Prediction → Output**:
 
 1. **Input:** upload an image, take a webcam photo, paste an image URL, or pick a held-out test sample.

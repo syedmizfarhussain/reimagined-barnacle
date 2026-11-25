@@ -178,7 +178,8 @@ def load_model(weights, classes=None):
     if classes:
         if not is_world:
             raise ValueError("This is a closed-set YOLOv8 model: its classes are fixed by training.")
-        model.set_classes(list(classes))
+        if list(classes) != list(model.names.values()):   # same as the trained classes -> no need to run CLIP
+            model.set_classes(list(classes))
     return model, is_world
 
 
