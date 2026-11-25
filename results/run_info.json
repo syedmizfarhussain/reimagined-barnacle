@@ -1,0 +1,25 @@
+{
+ "date": "2026-11-25 15:39",
+ "python": "3.13.16",
+ "torch": "2.14.1+cu130",
+ "ultralytics": "8.4.218",
+ "hardware": "Tesla T4",
+ "img_size": 640,
+ "conf_eval": 0.001,
+ "conf_speed": 0.25,
+ "max_det": 300,
+ "coco_images": 500,
+ "lvis_images": 500,
+ "custom_dataset": "african-wildlife",
+ "epochs": 30,
+ "quick_test": false,
+ "train_recipes": {
+  "yolo_world_s": {
+   "optimizer": "AdamW",
+   "lr0": 0.0002,
+   "weight_decay": 0.05,
+   "warmup_bias_lr": 0.0
+  },
+  "yolov8s": {}
+ }
+}

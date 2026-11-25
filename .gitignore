@@ -1,0 +1,23 @@
+# downloaded data, caches and run folders (re-created automatically)
+data/
+outputs/
+results/train_runs/
+results/val_runs/
+runs/
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+
+# local copies for the LMS submission and the Colab download (not needed in the repo)
+submission_today/
+colab_outputs.zip
+# stock photo used only for local testing (not ours to publish)
+samples/360_F_*
+
+# pretrained weights downloaded by Ultralytics (re-downloaded automatically)
+/*.pt
+
+# keep our trained weights (each ~25 MB, below GitHub's 100 MB limit)
+!weights/*.pt
+# CLIP text encoder that Ultralytics caches here (338 MB, re-downloaded automatically)
+weights/clip/

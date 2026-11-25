@@ -1,0 +1,5 @@
+metric,ours_v2_val_subset,paper_v1_minival,gap
+AP,20.03,26.2,-6.17
+APr,10.0,19.1,-9.1
+APc,15.01,23.6,-8.59
+APf,21.62,29.8,-8.18

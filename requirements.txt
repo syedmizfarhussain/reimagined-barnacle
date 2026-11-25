@@ -1,0 +1,18 @@
+# Tested with Python 3.14, torch 2.15 and ultralytics 8.4.216.
+# GPU: install the CUDA build of torch first (https://pytorch.org/get-started/locally/), then this file.
+torch>=2.2
+torchvision>=0.17
+ultralytics==8.4.216
+pycocotools>=2.0.7
+transformers>=4.40        # CLIP text encoder used in the notebook (Section 6)
+opencv-python-headless>=4.9
+numpy>=1.26
+pandas>=2.0
+matplotlib>=3.8
+pillow>=10.0
+pyyaml>=6.0
+requests>=2.31
+tqdm>=4.66
+streamlit>=1.50           # deployment app (app.py)
+# LVIS evaluation (notebook Section 9b) - install separately WITHOUT its dependencies:
+#   pip install --no-deps lvis==0.5.3

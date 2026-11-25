@@ -1,0 +1,4 @@
+model,params_M,infer_ms,fps_model,paper_params_M,paper_fps_v100,hardware
+YOLO-World-S v2,12.76,12.58,79.48,13,74.1,Tesla T4
+YOLO-World-M v2,28.38,20.57,48.61,29,58.1,Tesla T4
+YOLO-World-L v2,46.83,36.6,27.32,48,52.0,Tesla T4

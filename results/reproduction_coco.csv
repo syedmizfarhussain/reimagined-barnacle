@@ -1,0 +1,4 @@
+model,our_AP,our_AP50,our_AP75,rep_AP,rep_AP50,rep_AP75,AP_gap
+YOLO-World-S v2,36.87,50.26,39.26,37.7,52.2,41.0,-0.83
+YOLO-World-M v2,41.6,55.14,44.51,43.0,58.4,46.8,-1.4
+YOLO-World-L v2,44.31,58.99,47.01,45.8,61.3,49.8,-1.49

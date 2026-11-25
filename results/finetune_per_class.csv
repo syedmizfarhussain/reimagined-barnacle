@@ -1,0 +1,5 @@
+class,YOLO-World-S zero-shot,YOLO-World-S fine-tuned,YOLOv8-S fine-tuned (closed set)
+buffalo (outside COCO),50.74,84.4,86.73
+elephant (in COCO),58.54,82.1,79.06
+rhino (outside COCO),31.93,90.63,92.65
+zebra (in COCO),83.8,82.14,76.57

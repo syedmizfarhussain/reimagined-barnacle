@@ -1,0 +1,5 @@
+variant,example,text_cosine_to_plain,AP,AP50,AP75,APs,APm,APl,AR100,dAP_vs_plain
+plain,dining table,1.0,36.872,50.263,39.264,20.667,39.916,55.975,55.627,0.0
+photo,a photo of a dining table,0.938,33.577,46.102,35.346,16.984,36.411,55.257,53.863,-3.295
+object,a dining table object,0.935,34.014,46.145,36.196,16.83,36.402,56.558,53.762,-2.859
+synonyms,table,0.994,36.557,49.862,38.72,20.379,39.594,56.088,55.635,-0.316

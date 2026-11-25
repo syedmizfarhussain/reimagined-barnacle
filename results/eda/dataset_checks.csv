@@ -1,0 +1,13 @@
+,value
+images,5000
+annotations,36781
+categories,80
+duplicate image ids,0
+duplicate annotation ids,0
+missing values in annotations,0
+images without any annotation,48
+crowd annotations (removed by our loader),446
+boxes with width or height <= 0,0
+boxes with a side < 2px (removed by our loader),44
+boxes extending outside the image,0
+subset images missing on disk,0

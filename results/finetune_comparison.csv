@@ -1,0 +1,4 @@
+model,train_min,params_M,mAP50_95,mAP50,mAP75,precision,recall,infer_ms,AP buffalo,AP elephant,AP rhino,AP zebra
+YOLO-World-S zero-shot,0.0,12.76,56.25,65.27,62.37,76.42,62.15,11.52,50.74,58.54,31.93,83.8
+YOLO-World-S fine-tuned,14.21,12.76,84.82,97.14,93.59,93.72,93.9,13.57,84.4,82.1,90.63,82.14
+YOLOv8-S fine-tuned (closed set),18.53,11.14,83.75,98.4,91.62,95.32,94.61,8.37,86.73,79.06,92.65,76.57

@@ -1,0 +1,2 @@
+model,prompts,AP,AP50,AP75,APs,APm,APl,AR100
+YOLO-World-S v2,plain,36.87,50.26,39.26,20.67,39.92,55.97,55.63

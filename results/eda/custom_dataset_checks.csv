@@ -1,0 +1,13 @@
+,value
+images (train / valid / test),1052 / 225 / 227
+boxes,2685
+classes,4
+classes in COCO 80,"elephant, zebra"
+classes outside COCO 80,"buffalo, rhino"
+images without any box,0
+labels with an invalid class id,0
+boxes with width or height <= 0,0
+boxes with a side < 2 px,0
+boxes outside the image (> 1 px),0
+duplicate image files (same content),41
+image files found in more than one split,20
